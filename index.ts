@@ -22,6 +22,6 @@ function calculateAgeDetailed(birthDate: Date): { years: number; months: number;
 
   
 
-  const birthDate0 = new Date(2007, 1, 11); // Year, Month (0-indexed), Day
+  const birthDate0 = new Date(2007, 1, 11); 
 const age0 = calculateAgeDetailed(birthDate0);
-console.log("Age:", age0); // { years: 33, months: 6, days: 2 }
+console.log("Age:", age0); 
